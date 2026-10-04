@@ -22,30 +22,21 @@ except ImportError:
         generate_youtube_content,
     )
 
-SOURCE_TEXT = """ Cybersecurity has become an important part of modern digital systems. 
-As businesses and individuals increasingly use online services, protecting 
-digital information from unauthorized access has become more important.
-
-One common cybersecurity threat is phishing. In phishing attacks, attackers 
-may send fake emails or messages designed to trick users into sharing 
-passwords, financial information, or other sensitive data.
-
-Strong passwords are another important part of cybersecurity. Using unique 
-passwords for different accounts can reduce the risk of multiple accounts 
-being affected if one password is compromised. Multi-factor authentication 
-can provide an additional layer of security.
-
-Organizations also need to keep their software and systems updated. Software 
-updates can include security fixes that protect systems against known 
-vulnerabilities.
-
-Employee awareness is equally important. Regular cybersecurity training can 
-help employees recognize suspicious emails, unsafe links, and other potential 
-security threats.
-
-Overall, cybersecurity requires a combination of technology, secure 
-practices, regular updates, and user awareness. Both organizations and 
-individuals have a role to play in protecting digital information."""
+SOURCE_TEXT = """ Social media has become an important part of modern daily life. People use social networking platforms to
+communicate with friends, share information, follow news, and discover new content.
+One major benefit of social media is communication. People can stay connected with family, friends, and
+professional communities even when they are in different locations. Social media also allows users to share
+photos, videos, ideas, and experiences with a large audience.
+Social media is also widely used for learning and information sharing. Students can discover educational
+content, follow experts, participate in online communities, and access different perspectives on various topics.
+However, excessive social media usage can create challenges. Spending too much time on social platforms
+may reduce productivity and distract users from their daily responsibilities. Users may also encounter
+misleading information, unwanted content, or privacy concerns.
+Responsible usage is therefore important. Users should be careful about the information they share online,
+review their privacy settings, and verify important information before accepting or sharing it with others.
+Overall, social media provides useful opportunities for communication, learning, and information sharing. At
+the same time, users need to maintain a healthy balance and use social platforms responsibly.
+"""
 
 
 def run_tests():
