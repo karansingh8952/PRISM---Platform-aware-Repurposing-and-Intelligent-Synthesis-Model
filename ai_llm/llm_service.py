@@ -5,10 +5,9 @@ from typing import Any, Dict, Optional
 from dotenv import load_dotenv
 
 # Resolve path to .env file relative to this file's location (ai_llm/.env)
-_ENV_PATH = Path(__file__).resolve().parent / ".env"
-load_dotenv(dotenv_path=_ENV_PATH)
+_ENV_PATH = Path(__file__).resolve().parent.parent / ".env"
 
-
+load_dotenv(dotenv_path=_ENV_PATH, override=True)
 def _validate_api_key(key_name: str) -> str:
     """Validate that the required API key exists in environment variables."""
     api_key = os.getenv(key_name)

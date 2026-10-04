@@ -1,8 +1,8 @@
 from fastapi import APIRouter, UploadFile, File, Depends
 from sqlalchemy.orm import Session
 import pymupdf
-from app.database import get_db
-from app.models import ContentInput
+from backend.database import get_db
+from backend.models import ContentInput
 
 router = APIRouter()
 
